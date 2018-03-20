@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="829.60000000000002" y="266.71664167916043"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="gJi-Nk-S8N">
             <objects>
-                <viewController id="6FU-HO-U36" sceneMemberID="viewController">
+                <viewController id="6FU-HO-U36" customClass="DetailsViewController" customModule="Photorama" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NZU-kM-8ag">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Uxk-9Q-RMc"/>
                     </view>
+                    <connections>
+                        <outlet property="photoImage" destination="zgy-m7-7Ij" id="HtU-82-suE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26L-8L-qGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
